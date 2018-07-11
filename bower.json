@@ -1,0 +1,25 @@
+{
+  "name": "yes",
+  "authors": [
+    "Zaharakatd22 <zaharakatd22@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "animate.css": "latest",
+    "WOW": "latest",
+    "normalize.css": "latest"
+  },
+  "description": "leding-page",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/Zaharakatd22/.Yes",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/libs"
+  ]
+}

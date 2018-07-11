@@ -1,0 +1,48 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Languiadge school",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.4",
+    "browser-sync": "^2.24.4",
+    "gulp-autopolyfiller": "^1.2.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-ftp": "^1.1.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zaharakatd22/.Yes.git"
+  },
+  "author": "Zahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaharakatd22/.Yes/issues"
+  },
+  "homepage": "https://github.com/Zaharakatd22/.Yes#readme"
+}
