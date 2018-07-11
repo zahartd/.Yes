@@ -1,0 +1,368 @@
+body
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.btn
+{
+    font-family: 'Gilroy - Extra Bold';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+    padding: 27px 32px;
+
+    letter-spacing: .9px;
+
+    color: #fff;
+    border: 0;
+    border-radius: 35px;
+    background-color: #f5112c;
+    -webkit-box-shadow: 0 10px 18px rgba(246, 27, 60, .55);
+            box-shadow: 0 10px 18px rgba(246, 27, 60, .55);
+}
+
+.btn:hover
+{
+    background-color: #f52934;
+}
+
+.btn:active
+{
+    background-color: #f52974;
+}
+
+.header__block
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    padding-top: 33px;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+}
+
+.header__contact
+{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    margin-left: 403px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+}
+
+.header__phone
+{
+    margin-left: 34px;
+}
+
+.header__ordercall
+{
+    margin-left: 43px;
+}
+
+.header__ordercall a
+{
+    color: #f5112c;
+}
+
+.main
+{
+    background: #fff url('../img/main/bg.png') no-repeat 50% 0;
+    background-size: 100%;
+}
+
+.main__promoblock
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.main__promoblock-text
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    margin-top: 154px;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+}
+
+.main__promoblock-title h1
+{
+    font-family: 'Gilroy - Extra Bold';
+    font-size: 34px;
+    font-weight: 300;
+
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.main__promoblock-title h1 span
+{
+    font-size: 45px;
+    font-weight: 800;
+
+    margin-top: 14px;
+
+    letter-spacing: 2.25px;
+}
+
+.main__promoblock-title::after
+{
+    display: block;
+
+    width: 67px;
+    height: 10px;
+    margin-top: 30px;
+
+    content: '';
+
+    background-color: #f5112c;
+}
+
+.main__promoblock-descr
+{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+
+    width: 404px;
+    margin-top: 24px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.situation
+{
+    background: url('../img/situations/bg.png') no-repeat 50% 0;
+    background-size: cover;
+}
+
+.situation__title
+{
+    font-family: 'Gilroy';
+    font-size: 35px;
+    font-weight: 300;
+
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.situation__blocks
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-align: space-between;
+    -ms-flex-align: space-between;
+    align-items: space-between;
+}
+
+.chips
+{
+    background: url('../img/our-chips/bg.png') no-repeat 100% 0;
+}
+
+.chips__title h2
+{
+    font-family: 'Gilroy';
+    font-size: 45px;
+    font-weight: 800;
+
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.chips__content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.chips__items
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+}
+
+.chips__item-title h3
+{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.chips__item-text p
+{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.teachers
+{
+    background: url('../img/teachers/bg.png') no-repeat center center;
+}
+
+.teachers__title
+{
+    margin-top: 257px;
+}
+
+.teachers__title h2
+{
+    font-family: 'Gilroy';
+    font-size: 45px;
+    font-weight: 800;
+
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.teachers__items
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.teachers__item
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+}
+
+.teachers__photo
+{
+    margin-top: 53px;
+}
+
+.teachers__name
+{
+    margin-top: 33px;
+}
+
+.teachers__name h3
+{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.teachers__text
+{
+    margin-top: 20px;
+}
+
+.teachers__text p
+{
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+
+    letter-spacing: .7px;
+
+    color: #141414;
+}

@@ -38,9 +38,6 @@ gulp.task('sass', function() {
         	browsers: ['last 2 versions'],
         	cascade: false
         }))
-        .pipe(uncss({
-            html: ['src/*.html']
-        }))
         .pipe(concatCSS("style.css"))
         .pipe(csscomb())
         .pipe(plumber())
