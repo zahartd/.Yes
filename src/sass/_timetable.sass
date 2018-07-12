@@ -1,0 +1,65 @@
+.timetable
+	background: url(../img/timetable/bg.png) no-repeat 0% 50%
+	&__content
+		margin-left: 592px
+		display: flex
+		flex-direction: column
+		justify-content: flex-end
+	&__title
+		h2
+			display: inline-block
+			background: url(../img/timetable/title-bg.png) no-repeat 100% center
+			color: #000000
+			font-family: "Gilroy"
+			font-size: 45px
+			font-weight: 800
+			text-transform: uppercase
+			letter-spacing: 2.25px
+			&::after
+				display: block
+				content: ""
+				margin-top: 30px
+				width: 67px
+				height: 10px
+				background-color: #f5112c
+	&__text
+		&-price
+			margin-top: 49px
+			color: #f5112c
+			font-family: "Gilroy"
+			font-size: 45px
+			font-weight: 300
+			letter-spacing: 2.25px
+		&-descr
+			margin-top: 20px
+			color: #141414
+			font-family: "Gilroy"
+			font-size: 18px
+			font-weight: 300
+			line-height: 28px
+			letter-spacing: 0.9px
+	&__blocks
+		margin-top: 33px
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		&:nth-child(1)
+			margin-top: 46px
+	&__block
+		&-title
+			h3
+				color: #141414
+				font-family: "Gilroy"
+				font-size: 18px
+				font-weight: 800
+				line-height: 28px
+				letter-spacing: 0.9px
+		&-descr
+			p
+				color: #141414
+				font-family: "Gilroy"
+				font-size: 18px
+				font-weight: 300
+				line-height: 28px
+				letter-spacing: 0.9px
+

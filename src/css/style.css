@@ -211,9 +211,53 @@ body
     align-items: space-between;
 }
 
+.situation__block
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    margin-top: 86px;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+}
+
+.situation__text
+{
+    width: 352px;
+    margin-top: 95px;
+}
+
+.situation__text p
+{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+    letter-spacing: .9px;
+
+    color: #1b1b1b;
+}
+
+.situation__text:nth-child(odd)
+{
+    margin-left: 42px;
+}
+
+.situation__decor
+{
+    margin-top: 274px;
+}
+
 .chips
 {
-    background: url('../img/our-chips/bg.png') no-repeat 100% 0;
+    padding-top: 393px;
+
+    background: url('../img/our-chips/chips-img.png') no-repeat 100% 70%;
 }
 
 .chips__title h2
@@ -228,7 +272,32 @@ body
     color: #000;
 }
 
+.chips__title h2::after
+{
+    display: block;
+
+    width: 67px;
+    height: 10px;
+    margin-top: 30px;
+
+    content: '';
+
+    background-color: #f5112c;
+}
+
 .chips__content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+}
+
+.chips__items
 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -243,16 +312,16 @@ body
     justify-content: space-between;
 }
 
-.chips__items
+.chips__item
 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-        flex-direction: row;
+        flex-direction: column;
 
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
+    -ms-flex-direction: column;
 }
 
 .chips__item-title h3
@@ -265,6 +334,11 @@ body
     letter-spacing: .9px;
 
     color: #141414;
+}
+
+.chips__item-text
+{
+    width: 236px;
 }
 
 .chips__item-text p
@@ -286,7 +360,7 @@ body
 
 .teachers__title
 {
-    margin-top: 257px;
+    margin-top: 157px;
 }
 
 .teachers__title h2
@@ -322,6 +396,8 @@ body
     display: -ms-flexbox;
     display: flex;
         flex-direction: column;
+
+    width: 360px;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -363,6 +439,129 @@ body
     line-height: 24px;
 
     letter-spacing: .7px;
+
+    color: #141414;
+}
+
+.timetable
+{
+    background: url('../img/timetable/bg.png') no-repeat 0 50%;
+}
+
+.timetable__content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    margin-left: 592px;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.timetable__title h2
+{
+    font-family: 'Gilroy';
+    font-size: 45px;
+    font-weight: 800;
+
+    display: inline-block;
+
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
+
+    color: #000;
+    background: url('../img/timetable/title-bg.png') no-repeat 100% center;
+}
+
+.timetable__title h2::after
+{
+    display: block;
+
+    width: 67px;
+    height: 10px;
+    margin-top: 30px;
+
+    content: '';
+
+    background-color: #f5112c;
+}
+
+.timetable__text-price
+{
+    font-family: 'Gilroy';
+    font-size: 45px;
+    font-weight: 300;
+
+    margin-top: 49px;
+
+    letter-spacing: 2.25px;
+
+    color: #f5112c;
+}
+
+.timetable__text-descr
+{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+    margin-top: 20px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.timetable__blocks
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    margin-top: 33px;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.timetable__blocks:nth-child(1)
+{
+    margin-top: 46px;
+}
+
+.timetable__block-title h3
+{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+
+    letter-spacing: .9px;
+
+    color: #141414;
+}
+
+.timetable__block-descr p
+{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+    letter-spacing: .9px;
 
     color: #141414;
 }

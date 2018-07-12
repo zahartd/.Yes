@@ -1,5 +1,6 @@
 .chips
-	background: url(../img/our-chips/bg.png) no-repeat 100% 0%
+	padding-top: 393px
+	background: url(../img/our-chips/chips-img.png) no-repeat 100% 70%
 	&__title
 		h2
 			color: #000000
@@ -8,14 +9,23 @@
 			font-weight: 800
 			text-transform: uppercase
 			letter-spacing: 2.25px
+			&::after
+				display: block
+				content: ""
+				margin-top: 30px
+				width: 67px
+				height: 10px
+				background-color: #f5112c
 	&__content
 		display: flex
 		flex-direction: row
-		justify-content: space-between
 	&__items
 		display: flex
 		flex-direction: row
+		justify-content: space-between
 	&__item
+		display: flex
+		flex-direction: column
 		&-title
 			h3
 				color: #141414
@@ -25,6 +35,7 @@
 				line-height: 28px
 				letter-spacing: 0.9px
 		&-text
+			width: 236px
 			p
 				color: #141414
 				font-family: Gilroy
