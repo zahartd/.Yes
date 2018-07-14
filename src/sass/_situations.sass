@@ -12,10 +12,31 @@
 		display: flex
 		flex-direction: column
 		align-items: space-between
+	&__number
+		color: #000000
+		font-family: "Gilroy"
+		font-size: 48px
+		font-weight: 800
+		letter-spacing: 2.4px
+		line-height: 28px
+		span
+			color: #f5112c
 	&__block
 		margin-top: 86px
 		display: flex
 		flex-direction: row
+		&:nth-child(1)
+			.situation__number
+				transform: translate(550px, 57px)
+		&:nth-child(2)
+			.situation__number
+				transform: translate(495px, 30px)
+		&:nth-child(3)
+			.situation__number
+				transform: translate(405px, 71px)
+		&:nth-child(4)
+			.situation__number
+				transform: translate(740px, 63px)
 	&__text
 		margin-top: 95px
 		width: 352px
@@ -26,8 +47,6 @@
 			font-weight: 300
 			line-height: 28px
 			letter-spacing: 0.9px
-		&:nth-child(odd)
-			margin-left: 42px
 	&__decor
 		margin-top: 274px
 

@@ -1,11 +1,11 @@
-section.popup
-	.container
-		.popup-close
-		.popup__title
-			h2 Пробное занятие
-		.poopup__text
-			p Оставьте свой номер телефона и наш оператор свяжется с вами для согласования даты занятия
-		.popup__form
-			form(method="post" action="")
-				input(type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone")
-				button.btn(type="submit" name="submit") Записаться на пробное занятие
+.overlay
+	section.popup.popup-hide
+		.container
+			.popup-close ×
+			.popup__title
+				h2 Пробное занятие
+			.popup__text
+				p Оставьте свой номер телефона и наш оператор свяжется с вами для согласования даты занятия
+			form.popup__form(method="post" action="")
+				input.popup__form-phone(type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone")
+				button.btn.popup__form-btn(type="submit" name="submit") Записаться на пробное занятие
