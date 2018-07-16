@@ -1,0 +1,954 @@
+//Для сматрфонов
+@media(max-width: 576px)
+	.container
+		width: 322px
+		margin: 0 auto
+	.btn
+		padding: 25px 29px
+		font-size: 14px
+		letter-spacing: 0.7px
+	.header
+		&__block
+			padding-top: 21px
+		&__contact
+			margin-left: 106px
+			flex-direction: column
+			font-size: 14px
+			letter-spacing: 0.7px
+		&__adress
+			display: none
+		&__phone
+			margin-left: 0
+		&__ordercall
+			margin-left: 0
+	.main
+		padding-top: 338px
+		padding-bottom: 100px
+		background: #ffffff url(../img/main/mobile-bg.png) no-repeat center top
+		&__promoblock
+			flex-direction: column
+			&-img
+				display: none
+			&-text
+				justify-content: center
+				text-align: center
+				margin-top: 0px
+			&-title
+				text-align: center
+				h1
+					font-size: 18px
+					letter-spacing: 0.9px
+					span
+						font-size: 24px
+						letter-spacing: 1.2px
+				&::after
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				margin-top: 14px
+				width: 275px
+				font-size: 14px
+				line-height: 18px
+				letter-spacing: 0.7px
+	.situation
+		padding-bottom: 95px
+		&__title
+			text-align: center
+			h2
+				font-size: 24px
+				letter-spacing: 1.2px
+		&__block
+			flex-direction: column
+			margin-top: 40px
+			&:nth-child(1)
+				margin-top: 0px
+			&:nth-child(1)
+				.situation__number
+					margin-top: 62px
+					transform: translate(0px, 0px)
+			&:nth-child(2)
+				.situation__number
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+			&:nth-child(3)
+				.situation__number
+					transform: translate(0px, 0px)
+			&:nth-child(4)
+				.situation__number
+					margin-left: 25%
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+		&__number
+			margin-left: 45%
+			transform: translateX(-55%)
+			line-height: 18.76px
+			letter-spacing: 3.58px
+		&__decor
+			display: none
+			visibility: hidden
+		&__text
+			width: 320px
+			margin-left: 50%
+			transform: translateX(-50%)
+			margin-top: 11px
+			p
+				text-align: center
+				font-size: 14px
+				line-height: 18px
+				letter-spacing: 0.7px
+		&__photo
+			max-width: 320px
+			min-width: 280px
+			img
+				width: 320px
+	.chips
+		padding-top: 64px
+		background: #ffffff
+		&__title
+			margin-left: 50%
+			transform: translateX(-50%)
+			text-align: center
+			width: 261px
+			h2
+				font-size: 24px
+				letter-spacing: 1.2px
+				&::after
+					margin-bottom: 51px
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+		&__items
+			margin-left: 50%
+			transform: translateX(-50%)
+			flex-direction: column
+		&__item
+			margin-bottom: 53px
+			&-title
+				position: relative
+				&::before
+					z-index: -1
+					position: absolute
+					top: -30px
+					left: 65px
+					content: ""
+					width: 52px
+					height: 53px
+					border-radius: 23px
+					background-color: #f5f5f5
+				h3
+					font-size: 14px
+					line-height: 24px
+					letter-spacing: 0.7px
+			&-text
+				text-align: justify
+				width: 184px
+				p
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+	.teachers
+		&__title
+			text-align: center
+			margin-top: 0
+			h2
+				font-size: 30px
+				letter-spacing: 1.5px
+		&__items
+			flex-direction: column
+		&__item
+			margin-top: 43px
+			&:first-child
+				margin-top: 32px
+			width: 285px
+		&__photo
+			margin-top: 0
+			img
+				width: 285px
+		&__name
+			margin-left: 14px
+			margin-top: 25px
+			h3
+				margin: 0
+				font-size: 14px
+				letter-spacing: 0.7px
+		&__text
+			margin-top: 17px
+			margin-left: 14px
+			p
+				line-height: 18px
+	.timetable
+		padding-top: 390px
+		padding-bottom: 57px
+		background: #ffffff url(../img/timetable/mobile-bg.png) no-repeat 0% 0%
+		&__content
+			margin-left: 0
+		&__title
+			text-align: center
+			h2
+				font-size: 24px
+				letter-spacing: 1.2px
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+		&__text
+			&-price
+				text-align: center
+				font-size: 24px
+				letter-spacing: 1.2px
+			&-descr
+				text-align: center
+				margin-top: 15px
+				font-size: 14px
+				line-height: 18px
+				letter-spacing: 0.7px
+		&__cols
+			flex-direction: column
+		&__blocks
+			margin-top: 0
+			flex-direction: column
+		&__block
+			&:first-child
+				margin-top: 37px
+			margin-top: 28px
+			&:last-child
+				margin-left: 0
+			&-title
+				text-align: center
+				h3
+					margin: 0
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+			&-descr
+				margin-top: 15px
+				text-align: center
+				p
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+	.training
+		background: url(../img/training/mobile-bg.png) no-repeat center top
+		padding-top: 88px
+		padding-bottom: 101px
+		&__title
+			text-align: center
+			h2
+				font-size: 30px
+				letter-spacing: 1.5px
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+		&__block
+			margin-top: 29px
+			justify-content: center
+			flex-direction: column
+			&-decorate
+				&_blue
+					&-circle
+						display: none
+						visibility: hidden
+			&:nth-child(odd)
+				flex-direction: column-reverse
+			&-photo
+				margin-left: 0
+				margin-right: 0
+				img
+					width: 293px
+			&-title
+				text-align: center
+				h3
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+					&::before
+						margin-right: 28px
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				width: 252px
+				text-align: center
+				p
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+	.feedback
+		background: #fff
+		padding-top: 68px
+		padding-bottom: 92px
+		&__title
+			text-align: center
+			h2
+				font-size: 24px
+				letter-spacing: 1.2px
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+		&__block
+			justify-content: center
+			flex-direction: column
+		&__photo
+			margin-top: 40px
+			img
+				margin-left: 50%
+				transform: translateX(-50%)
+		&__text
+			margin-left: 50%
+			transform: translateX(-50%)
+			&-name
+				text-align: center
+				margin-top: 28px
+				h3
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				text-align: center
+				width: 289px
+				margin-top: 15px
+				p
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+			&-contact-link
+				text-align: center
+				margin-top: 17px
+				a
+					font-size: 14px
+					line-height: 24px
+					letter-spacing: 0.7px
+	.promoblock
+		padding-top: 210px
+		padding-bottom: 125px
+		background: #ffffff url(../img/promoblock/bg-mobile.png) no-repeat center top
+		&__img
+			display: none
+		&__text
+			&-title
+				text-align: center
+				h2
+					font-size: 24px
+					letter-spacing: 1.2px
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+			&-descr
+				margin-top: 19px
+				width: 281px
+				text-align: center
+				p
+					font-size: 14px
+					line-height: 18px
+					letter-spacing: 0.7px
+			&-btn
+				margin-top: 19px
+	.footer
+		padding-top: 57px
+		padding-bottom: 60px
+		&__content
+			justify-content: center
+			align-items: center
+			flex-direction: column
+		&__logo
+			margin-right: 0
+			&-text
+				font-size: 14px
+				letter-spacing: 0.7px
+		&__contact
+			flex-direction: column
+			&-icons
+				justify-content: center
+			&-block
+				flex-direction: column
+			&-adress
+				font-size: 14px
+				line-height: 24px
+				letter-spacing: 0.7px
+			&-phone
+				font-size: 14px
+				line-height: 24px
+				letter-spacing: 0.7px
+			&-ordercall
+				a
+					font-size: 14px
+					line-height: 24px
+					letter-spacing: 0.7px
+// Для планшетов
+@media(max-width: 768px) and (min-width: 576px)
+	.container
+		margin: 0 auto
+		width: 540px
+	.btn
+		font-size: 16px
+		letter-spacing: 0.9px
+	.header
+		&__block
+			padding-top: 21px
+		&__contact
+			margin-left: 106px
+			flex-direction: row
+			justify-content: space-between
+			font-size: 14px
+			letter-spacing: 0.7px
+		&__adress
+			display: none
+		&__phone
+			margin-left: 0
+		&__ordercallss
+			margin-left: 43px
+	.main
+		padding-bottom: 100px
+		&__promoblock
+			flex-direction: column
+			justify-content: center
+			&-title
+				margin-left: 50%
+				transform: translateX(-50%)
+				&::after
+					display: block
+					content: ""
+					margin-top: 16px
+					width: 68px
+					height: 11px
+					background-color: #f5112c
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				margin-top: 14px
+				width: 275px
+			&-btn
+				margin-left: 50%
+				transform: translateX(-50%)
+	.situation
+		padding-bottom: 95px
+		&__title
+		&__block
+			flex-direction: column
+			margin-top: 40px
+			&:nth-child(1)
+				margin-top: 0px
+				.situation__number
+					margin-top: 62px
+					transform: translate(0px, 0px)
+			&:nth-child(2)
+				.situation__number
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+			&:nth-child(3)
+				.situation__number
+					transform: translate(0px, 0px)
+			&:nth-child(4)
+				.situation__number
+					margin-left: 25%
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+		&__number
+			margin-left: 45%
+			transform: translateX(-55%)
+		&__decor
+			display: none
+			visibility: hidden
+		&__text
+			width: 320px
+			margin-left: 50%
+			transform: translateX(-50%)
+			margin-top: 11px
+			p
+				text-align: center
+		&__photo
+			img
+				width: 100%
+	.chips
+		padding-top: 64px
+		background: #ffffff
+		&__title
+			&::after
+				margin-bottom: 51px
+		&__items
+
+			margin-left: 50%
+			transform: translateX(-50%)
+			flex-direction: column
+		&__item
+			margin-bottom: 53px
+			&-title
+				position: relative
+				&::before
+					z-index: -1
+					position: absolute
+					top: -30px
+					left: 65px
+					content: ""
+					width: 52px
+					height: 53px
+					border-radius: 23px
+					background-color: #f5f5f5
+			&-text
+				text-align: justify
+	.teachers
+		&__title
+			margin-top: 0
+		&__items
+			flex-direction: column
+		&__item
+			margin-top: 43px
+			&:first-child
+				margin-top: 32px
+		&__photo
+			img
+				width: 540px
+		&__name
+			margin-left: 14px
+			margin-top: 25px
+			h3
+				font-size: 18px
+				line-height: 28px
+				letter-spacing: 0.9px
+				margin: 0
+		&__text
+			margin-top: 17px
+			margin-left: 14px
+			p
+				font-size: 18px
+				line-height: 28px
+				letter-spacing: 0.9px
+	.timetable
+		padding-bottom: 57px
+		background: #ffffff url(../img/timetable/tablet-bg.png) no-repeat -320% 0%
+		&__content
+			margin-left: 0
+		&__text
+			&-price
+				text-align: center
+			&-descr
+				text-align: center
+		&__cols
+			flex-direction: row
+		&__blocks
+			margin-top: 0
+			flex-direction: column
+		&__block
+			&:first-child
+				margin-top: 37px
+			margin-top: 28px
+			&:last-child
+				margin-left: 0
+	.training
+		background: url(../img/training/mobile-bg.png) no-repeat center top
+		padding-top: 88px
+		padding-bottom: 101px
+		&__block
+			margin-top: 29px
+			justify-content: center
+			flex-direction: column
+			&-decorate
+				&_blue
+					&-circle
+						display: inline-block
+						position: absolute
+						left: 630px
+						top: 11070px
+			&:nth-child(odd)
+				flex-direction: column-reverse
+			&-photo
+				margin-left: 0
+				margin-right: 0
+				img
+					width: 100%
+			&-title
+				text-align: center
+				h3
+					&::before
+						margin-right: 28px
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				text-align: center
+	.feedback
+		background: #fff
+		padding-top: 68px
+		padding-bottom: 92px
+		&__block
+			justify-content: center
+			flex-direction: column
+		&__photo
+			margin-top: 30px
+		&__text
+			&-name
+				text-align: center
+				margin-top: 28px
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				text-align: center
+				margin-top: 5px
+			&-contact-link
+				text-align: center
+				margin-top: 17px
+	.promoblock
+		padding-top: 430px
+		padding-bottom: 125px
+		background: #ffffff url(../img/promoblock/tablet-bg.png) no-repeat center top
+		&__img
+			display: none
+		&__text
+			&-title
+				text-align: center
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+			&-descr
+				margin-top: 19px
+				width: 100%
+				text-align: center
+			&-btn
+				margin-left: 50%
+				transform: translateX(-50%)
+				margin-top: 19px
+	.footer
+		padding-top: 57px
+		padding-bottom: 60px
+		&__content
+			justify-content: center
+			align-items: center
+			flex-direction: column
+		&__logo
+			margin-right: 0
+			&-text
+		&__contact
+			flex-direction: column
+			&-icons
+				justify-content: center
+			&-block
+				flex-direction: column
+			&-adress
+			&-phone
+			&-ordercall
+@media(max-width: 992px) and (min-width: 768px)
+	.container
+		width: 720px
+	.header
+		&__block
+			padding-top: 34px
+		&__contact
+			margin-left: 36px
+			flex-direction: row
+			justify-content: space-between
+		&__adress
+		&__phone
+			margin-left: 27px
+		&__ordercallss
+			margin-left: 27px
+	.situation
+		padding-bottom: 95px
+		&__title
+		&__block
+			flex-direction: column
+			margin-top: 40px
+			&:nth-child(1)
+				margin-top: 0px
+				.situation__number
+					margin-top: 62px
+					transform: translate(0px, 0px)
+			&:nth-child(2)
+				.situation__number
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+			&:nth-child(3)
+				.situation__number
+					transform: translate(0px, 0px)
+			&:nth-child(4)
+				.situation__number
+					margin-left: 25%
+					transform: translate(0px, 0px)
+					margin-bottom: 52px
+		&__number
+			margin-left: 45%
+			transform: translateX(-55%)
+		&__decor
+			display: none
+			visibility: hidden
+		&__text
+			width: 320px
+			margin-left: 50%
+			transform: translateX(-50%)
+			margin-top: 11px
+			p
+				text-align: center
+		&__photo
+			img
+				width: 100%
+	.chips
+		padding-top: 64px
+		background: #ffffff
+		&__title
+			&::after
+				margin-bottom: 51px
+		&__items
+
+			margin-left: 50%
+			transform: translateX(-50%)
+			flex-direction: column
+		&__item
+			margin-bottom: 53px
+			&-title
+				position: relative
+				&::before
+					z-index: -1
+					position: absolute
+					top: -30px
+					left: 65px
+					content: ""
+					width: 52px
+					height: 53px
+					border-radius: 23px
+					background-color: #f5f5f5
+			&-text
+				text-align: justify
+	.teachers
+		&__title
+			margin-top: 0
+		&__items
+			flex-direction: column
+		&__item
+			margin-top: 43px
+			&:first-child
+				margin-top: 32px
+		&__photo
+			img
+				width: 720px
+		&__name
+			margin-left: 14px
+			margin-top: 25px
+			h3
+				font-size: 18px
+				line-height: 28px
+				letter-spacing: 0.9px
+				margin: 0
+		&__text
+			margin-top: 17px
+			margin-left: 14px
+			p
+				font-size: 18px
+				line-height: 28px
+				letter-spacing: 0.9px
+	.timetable
+		padding-top: 900px
+		padding-bottom: 57px
+		background: #ffffff url(../img/timetable/tablet-bg.png) no-repeat -110% 0%
+		&__content
+			margin-left: 0
+		&__text
+			&-price
+				text-align: center
+			&-descr
+				text-align: center
+		&__cols
+			flex-direction: row
+		&__blocks
+			margin-top: 0
+			flex-direction: column
+		&__block
+			&:first-child
+				margin-top: 37px
+			margin-top: 28px
+			&:last-child
+				margin-left: 0
+	.training
+		background: url(../img/training/mobile-bg.png) no-repeat center top
+		padding-top: 88px
+		padding-bottom: 101px
+		&__block
+			margin-top: 29px
+			justify-content: center
+			flex-direction: column
+			&-decorate
+				&_blue
+					&-circle
+						display: inline-block
+						position: absolute
+						left: 630px
+						top: 11070px
+			&:nth-child(odd)
+				flex-direction: column-reverse
+			&-photo
+				margin-left: 0
+				margin-right: 0
+				img
+					width: 720px
+			&-title
+				text-align: center
+				h3
+					&::before
+						margin-right: 28px
+			&-descr
+				margin-left: 50%
+				transform: translateX(-50%)
+				text-align: center
+	.feedback
+		background: #fff
+		padding-top: 68px
+		padding-bottom: 92px
+		&__block
+			justify-content: center
+			flex-direction: row
+		&__photo
+			margin-top: 30px
+		&__text
+			&-name
+				text-align: left
+				margin-top: 28px
+			&-descr
+				width: 426px
+				margin-left: 50%
+				transform: translateX(-50%)
+				text-align: left
+				margin-top: 5px
+			&-contact-link
+				text-align: left
+				margin-top: 17px
+	.promoblock
+		padding-top: 430px
+		padding-bottom: 125px
+		background: #ffffff url(../img/promoblock/tablet-bg.png) no-repeat center top
+		&__img
+			display: none
+		&__text
+			&-title
+				text-align: center
+				&::after
+					margin-bottom: 16px
+					margin-left: 50%
+					transform: translateX(-50%)
+			&-descr
+				margin-top: 19px
+				width: 100%
+				text-align: center
+			&-btn
+				margin-left: 50%
+				transform: translateX(-50%)
+				margin-top: 19px
+	.footer
+		padding-top: 57px
+		padding-bottom: 60px
+		&__content
+			justify-content: space-between
+			align-items: center
+			flex-direction: row
+		&__logo
+			margin-right: 0
+			&-text
+		&__contact
+			flex-direction: column
+			&-icons
+				justify-content: center
+			&-block
+				flex-direction: column
+			&-adress
+				margin-right: 0				
+			&-phone
+				margin-right: 0
+			&-ordercall
+@media(max-width: 1200px) and (min-width: 992px)
+	.container
+		width: 960px
+	.header
+		&__block
+			padding-top: 34px
+		&__contact
+			margin-left: 266px
+			flex-direction: row
+			justify-content: space-between
+		&__adress
+		&__phone
+			margin-left: 27px
+		&__ordercallss
+			margin-left: 27px
+	.situation
+		&__block
+			&:nth-child(1)
+				.situation__number
+					transform: translate(490px, 57px)
+			&:nth-child(2)
+				.situation__number
+					transform: translate(545px, 30px)
+			&:nth-child(3)
+				.situation__number
+					transform: translate(595px, 71px)
+			&:nth-child(4)
+				.situation__number
+					transform: translate(620px, 53px)
+	.chips
+		padding-top: 393px
+		background: url(../img/our-chips/chips-img.png) no-repeat 250% 70%
+	.teachers
+		&__photo
+			img
+				width: 300px
+		&__text
+			width: 300px
+	.timetable
+		background: #ffffff url(../img/timetable/tablet-bg.png) no-repeat -50% 0%
+		&__content
+			justify-content: center
+			margin-left: 200px
+	.feedback
+		&__block
+			justify-content: center
+			flex-direction: row
+		&__text
+			&-descr
+				width: 506px
+	.promoblock
+		background: #ffffff url(../img/promoblock/tablet-bg.png) no-repeat 0% top
+		&__img
+			display: none
+			visibility: hidden
+		&__content
+			justify-content: flex-end
+	.footer
+		&__logo
+			margin-right: 150px

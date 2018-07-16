@@ -24,9 +24,7 @@
 		display: flex
 		flex-direction: row
 		justify-content: space-between
-		align-items: center
 		&-text
-
 		&-title
 			h3
 				color: #141414
@@ -35,9 +33,13 @@
 				font-weight: 800
 				line-height: 28px
 				letter-spacing: 0.9px
-			&::before
-				content: ""
-				background: url(../img/training/arrow.svg) no-repeat 10% center
+				&::before
+					display: inline-block
+					width: 15px
+					height: 12px
+					margin-right: 23px
+					content: ""
+					background: url(../img/training/arrow.svg) no-repeat 10% center
 		&-descr
 			margin-top: 19px
 			p
@@ -55,4 +57,4 @@
 				margin-left: 25px
 		&-decorate
 			&_blue-circle
-				transform: translate(-40px, -160px)
+				transform: translate(-50px, -40px)

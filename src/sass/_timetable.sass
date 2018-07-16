@@ -37,13 +37,17 @@
 			font-weight: 300
 			line-height: 28px
 			letter-spacing: 0.9px
-	&__blocks
-		margin-top: 33px
+	&__cols
 		display: flex
 		flex-direction: row
 		justify-content: space-between
-		&:nth-child(1)
-			margin-top: 46px
+	&__blocks
+		display: flex
+		flex-direction: column
+		margin-top: 46px
+		&:last-child
+			margin-left: 5px
+
 	&__block
 		&-title
 			h3
@@ -53,6 +57,8 @@
 				font-weight: 800
 				line-height: 28px
 				letter-spacing: 0.9px
+		&:last-child
+
 		&-descr
 			p
 				color: #141414
