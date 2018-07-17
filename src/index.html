@@ -30,7 +30,7 @@
                     <div class="header__adress">г. Москва ул. Северная, 35</div>
                     <div class="header__phone">+7 (945) 46-54-67</div>
                     <div class="header__ordercall">
-                        <a href="#">Заказать звонок</a>
+                        <button type="button">Заказать звонок</button>
                     </div>
                 </div>
             </div>
@@ -431,7 +431,7 @@
             </div>
         </div>
     </footer>
-    <div class="overlay popup-hide">
+    <div class="overlay wow fadeInDown" data-wow-direction="2s">
         <section class="popup">
             <div class="container">
                 <div class="popup__close">
@@ -446,6 +446,25 @@
                 <form class="popup__form" method="post" action="">
                     <input class="popup__form-phone" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone">
                     <button class="btn popup__form-btn" type="submit" name="submit">Записаться на пробное занятие</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="overlay2 wow fadeInDown" data-wow-direction="2s">
+        <section class="popup">
+            <div class="container">
+                <div class="popup__close">
+                    <button class="popup__close-btn" type="button">×</button>
+                </div>
+                <div class="popup__title">
+                    <h2>Заказать бесплатную консультацию</h2>
+                </div>
+                <div class="popup__text">
+                    <p>Оставьте свой номер телефона и наш оператор свяжется с вами</p>
+                </div>
+                <form class="popup__form" method="post" action="">
+                    <input class="popup__form-phone" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone">
+                    <button class="btn popup__form-btn" type="submit" name="submit">Заказать бесплатную консультацию</button>
                 </form>
             </div>
         </section>

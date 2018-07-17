@@ -1,4 +1,13 @@
 .overlay
+	display: none
+	position: fixed
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(0, 0, 0, 0.58)
+.overlay2
+	display: none
 	position: fixed
 	top: 0
 	width: 100%
@@ -30,7 +39,10 @@
 		font-size: 26px
 		font-weight: bold
 		font-family:  'Tahoma', Arial, sans-serif
-		color: #000000
+		&:hover
+			color: #f52934
+		&:active
+			color: #f52974
 		&-btn
 			border: 0
 			background: none
