@@ -789,6 +789,17 @@ body
     background-color: #f5112c;
 }
 
+.feedback__slider
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .feedback__block
 {
     display: -webkit-box;
@@ -796,9 +807,17 @@ body
     display: flex;
         flex-direction: row;
 
+    margin-left: 50%;
+
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .feedback__text
@@ -807,8 +826,6 @@ body
     display: -ms-flexbox;
     display: flex;
         flex-direction: column;
-
-    margin-left: 65px;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -842,6 +859,11 @@ body
     letter-spacing: .9px;
 
     color: #141414;
+}
+
+.feedback__text-contact-link
+{
+    margin-bottom: 15px;
 }
 
 .feedback__text-contact-link a
@@ -3232,13 +3254,21 @@ body
     .feedback__photo
     {
         margin-top: 30px;
+        margin-right: 0;
+        margin-left: 50%;
+
+        -webkit-transform: translateX(-15%);
+                transform: translateX(-15%);
     }
 
     .feedback__text-name
     {
         margin-top: 28px;
+        margin-left: 50%;
 
-        text-align: left;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        text-align: center;
     }
 
     .feedback__text-descr
@@ -3249,14 +3279,14 @@ body
 
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
-        text-align: left;
+        text-align: center;
     }
 
     .feedback__text-contact-link
     {
         margin-top: 17px;
 
-        text-align: left;
+        text-align: center;
     }
 
     .promoblock
