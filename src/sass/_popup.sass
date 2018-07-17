@@ -1,5 +1,4 @@
 .overlay
-	display: none
 	position: fixed
 	top: 0
 	width: 100%
@@ -22,7 +21,7 @@
 	&-hide
 		display: none
 		visibility: hidden
-	&-close
+	&__close
 		position: absolute
 		right: 29px
 		top: 29px
@@ -32,6 +31,10 @@
 		font-weight: bold
 		font-family:  'Tahoma', Arial, sans-serif
 		color: #000000
+		&-btn
+			border: 0
+			background: none
+			
 	&__title
 		width: 735px
 		display: flex

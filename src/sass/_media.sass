@@ -415,6 +415,30 @@
 					font-size: 14px
 					line-height: 24px
 					letter-spacing: 0.7px
+	.popup
+		padding-top: 48px
+		padding-bottom: 48px
+		position: fixed
+		left: 50%
+		width: 300px
+		top: 5px
+		&__title
+			width: 280px
+			display: flex
+			justify-content: center
+		&__text
+			width: 270px
+			margin-top: 19px
+		&__form
+			width: 290px
+			margin-top: 11px
+			&-phone
+				width: 290px
+				padding-top: 17px
+				padding-bottom: 17px
+			&-btn
+				width: 290px
+				margin-top: 10px
 // Для планшетов
 @media(max-width: 768px) and (min-width: 576px)
 	.container
@@ -667,6 +691,9 @@
 			&-adress
 			&-phone
 			&-ordercall
+	.popup
+		padding-top: 48px
+		padding-bottom: 48px
 @media(max-width: 992px) and (min-width: 768px)
 	.container
 		width: 720px
@@ -892,7 +919,10 @@
 			&-phone
 				margin-right: 0
 			&-ordercall
-@media(max-width: 1200px) and (min-width: 992px)
+	.popup
+		padding-top: 58px
+		padding-bottom: 48px
+@media(max-width: 1200px) and (min-width: 993px)
 	.container
 		width: 960px
 	.header
@@ -923,7 +953,7 @@
 					transform: translate(620px, 53px)
 	.chips
 		padding-top: 393px
-		background: url(../img/our-chips/chips-img.png) no-repeat 250% 70%
+		background: url(../img/our-chips/chips-img.png) no-repeat 1050% 70%
 	.teachers
 		&__photo
 			img
@@ -931,7 +961,7 @@
 		&__text
 			width: 300px
 	.timetable
-		background: #ffffff url(../img/timetable/tablet-bg.png) no-repeat -50% 0%
+		background: #ffffff url(../img/timetable/tablet-bg.png) no-repeat -100% 0%
 		&__content
 			justify-content: center
 			margin-left: 200px
@@ -952,3 +982,6 @@
 	.footer
 		&__logo
 			margin-right: 150px
+	.popup
+		padding-top: 68px
+		padding-bottom: 48px
