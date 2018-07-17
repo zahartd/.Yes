@@ -789,17 +789,6 @@ body
     background-color: #f5112c;
 }
 
-.feedback__slider
-{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
 .feedback__block
 {
     display: -webkit-box;
@@ -818,6 +807,11 @@ body
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+.feedback__photo img
+{
+    width: 165px;
 }
 
 .feedback__text
