@@ -16,6 +16,7 @@ var sourcemaps     = require('gulp-sourcemaps');
 var plumber        = require('gulp-plumber');
 var imagemin       = require('gulp-imagemin');
 var notify         = require("gulp-notify");
+var jsmin          = require('gulp-jsmin');
 var htmlmin        = require('gulp-htmlmin');
 var rev            = require('gulp-rev');
 var ftp            = require('gulp-ftp');
@@ -65,7 +66,7 @@ gulp.task('pug', function() {
         .pipe(browserSync.stream());
 });
 gulp.task('minhtml', function() {
-    return gulp.src("src/")
+    return gulp.src("src/*.html")
         .pipe(rev())
         .pipe(htmlmin({
                 collapseWhitespace: true,
@@ -76,33 +77,36 @@ gulp.task('minhtml', function() {
             }))
         .pipe(rename("index.html"))
         .pipe(gulp.dest("dist/"))
-        .pipe(notify('Html минимизирован'));
+        .pipe(notify('Html min'));
 })
 gulp.task('mincss', function() {
     return gulp.src("src/css/*.css")
         .pipe(rev())
-        .pipe(rename({suffix: ".min"}))
+        .pipe(concatCSS("style.css"))
+        .pipe(rename("style.min.css"))
         .pipe(cleanCSS())
         .pipe(plumber())
         .pipe(gulp.dest("dist/css"))
-        .pipe(notify('Css минимизирован'));
+        .pipe(notify('Css min'));
 })
 gulp.task('minjs', function() {
     return gulp.src("src/js/*.js")
-        .pipe(autopolyfiller('src/js/main.js'))
         .pipe(rev())
-        .pipe(rename({suffix: ".min"}))
+        .pipe(autopolyfiller('src/js/*.js'))
         .pipe(uglify())
+        .pipe(concat("main.js"))
+        .pipe(rename("main.min.js"))
+        .pipe(jsmin())
         .pipe(plumber())
         .pipe(gulp.dest("dist/js"))
-        .pipe(notify('Javascript минимизирован'));
+        .pipe(notify('Javascript min'));
 })
 gulp.task('minimg', function() {
-    return gulp.src('src/img/**/*')
+    return gulp.src("src/img/**/*")
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
-            imagemin.optipng({optimizationLevel: 5}),
+            imagemin.optipng({optimizationLevel: 6}),
             imagemin.svgo({
                 plugins: [
                     {removeViewBox: true},
@@ -112,7 +116,7 @@ gulp.task('minimg', function() {
         ]))
         .pipe(plumber())
         .pipe(gulp.dest("dist/img"))
-        .pipe(notify('Изображения минимизированы'));
+        .pipe(notify('Изображения min'));
 })
 gulp.task('ftp', function(){
 	return gulp.src('src/**')

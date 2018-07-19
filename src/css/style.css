@@ -872,6 +872,11 @@ body
     color: #f5112c;
 }
 
+.promoblock
+{
+    padding-bottom: 185px;
+}
+
 .promoblock__content
 {
     display: -webkit-box;
@@ -1302,7 +1307,7 @@ body
 {
     .container
     {
-        width: 322px;
+        width: 320px;
         margin: 0 auto;
     }
 
@@ -2226,7 +2231,7 @@ body
         top: 5px;
         left: 50%;
 
-        width: 300px;
+        width: 100%;
         padding-top: 48px;
         padding-bottom: 48px;
     }

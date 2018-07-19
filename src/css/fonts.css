@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-Light.eot');
-    src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Gilroy-Light.woff2') format('woff2'),
-        url('../fonts/Gilroy-Light.woff') format('woff'),
-        url('../fonts/Gilroy-Light.ttf') format('truetype'),
-        url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    src: url('../fonts/gilroy-light.eot');
+    src: url('../fonts/gilroy-light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gilroy-light.woff2') format('woff2'),
+        url('../fonts/gilroy-light.woff') format('woff'),
+        url('../fonts/gilroy-light.ttf') format('truetype'),
+        url('../fonts/gilroy-light.svg#gilroy-light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-ExtraBold.eot');
-    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
-        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'),
-        url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    src: url('../fonts/gilroy-extrabold.eot');
+    src: url('../fonts/Gilroy-extrabold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gilroy-extrabold.woff2') format('woff2'),
+        url('../fonts/gilroy-extrabold.woff') format('woff'),
+        url('../fonts/gilroy-extrabold.ttf') format('truetype'),
+        url('../fonts/gilroy-extrabold.svg#gilroy-extrabold') format('svg');
     font-weight: 800;
     font-style: normal;
 }
