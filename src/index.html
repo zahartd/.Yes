@@ -33,7 +33,7 @@
                     <div class="header__adress">г. Москва ул. Северная, 35</div>
                     <div class="header__phone">+7 (945) 46-54-67</div>
                     <div class="header__ordercall">
-                        <button type="button">Заказать звонок</button>
+                        <button type="button" onclick="yaCounter49661569.reachGoal('topBtn'); return true;" value="Заказать">Заказать звонок</button>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                         <p>Освойте английский для путешествий и научитесь объясняться в любой ситуации</p>
                     </div>
                     <div class="main__promoblock-btn">
-                        <button class="btn" type="button">Записаться на пробное занятие</button>
+                        <button class="btn" type="button" onclick="yaCounter49661569.reachGoal('trialBtn'); return true;" value="Заказать">Записаться на пробное занятие</button>
                     </div>
                 </div>
             </div>
@@ -417,7 +417,7 @@
                         <p>Приходите на бесплатное первое занятие по теме “аэропорт” и ощутите пользу сразу!</p>
                     </div>
                     <div class="promoblock__text-btn">
-                        <button class="btn" type="button">Записаться на пробное занятие</button>
+                        <button class="btn" type="button" onclick="yaCounter49661569.reachGoal('trialBtn'); return true;">Записаться на пробное занятие</button>
                     </div>
                 </div>
             </div>
@@ -461,7 +461,7 @@
                         <div class="footer__contact-adress">г. Москва ул. Северная, 35</div>
                         <div class="footer__contact-phone">+7 (945) 46-54-67</div>
                         <div class="footer__contact-ordercall">
-                            <a href="#">Заказать звонок</a>
+                            <button type="button" onclick="yaCounter49661569.reachGoal('topBtn'); return true;" value="Заказать">Заказать звонок</button>
                         </div>
                     </div>
                 </div>
@@ -480,7 +480,7 @@
                 <div class="popup__text">
                     <p>Оставьте свой номер телефона и наш оператор свяжется с вами для согласования даты занятия</p>
                 </div>
-                <form class="popup__form" method="post" action="#">
+                <form class="popup__form" method="post" action="#" onsubmit="yaCounter49661569.reachGoal('orderTrial', function () {alert('Данные успешно отправлены');}); return true;">
                     <input class="popup__form-phone" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone">
                     <button class="btn popup__form-btn" type="submit" name="submit">Записаться на пробное занятие</button>
                 </form>
@@ -499,13 +499,45 @@
                 <div class="popup__text">
                     <p>Оставьте свой номер телефона и наш оператор свяжется с вами</p>
                 </div>
-                <form class="popup__form" method="post" action="#">
+                <form class="popup__form" method="post" action="#" onsubmit="yaCounter49661569.reachGoal('orderCall', function () { alert('Данные успешно отправлены');
+                    }); return true;">
                     <input class="popup__form-phone" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone">
                     <button class="btn popup__form-btn" type="submit" name="submit">Заказать бесплатную консультацию</button>
                 </form>
             </div>
         </section>
     </div>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter49661569 = new Ya.Metrika2({
+                        id: 49661569,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                    });
+                } catch (e) {}
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script><noscript> <div></div><img src="https://mc.yandex.ru/watch/49661569" style="position:absolute; left:-9999px;" alt=""></noscript>
     <script src="libs/WOW/wow.min.js"></script>
     <script src="libs/jquery/jquery.min.js"></script>
     <script src="libs/slick/slick.min.js"></script>
