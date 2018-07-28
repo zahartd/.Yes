@@ -14,12 +14,10 @@
     <meta name="generator" content="WordPress 4.9.7">
     <meta name="author" content="Турулин Захар">
     <meta name="copyright" lang="ru" content="Школа  Английского Языка Yes">
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="libs/normalize.css/normalize.css">
-    <link rel="stylesheet" href="libs/animate.css/animate.min.css">
-    <link rel="stylesheet" href="libs/slick/slick.css">
-    <link rel="stylesheet" href="libs/slick/slick-theme.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href=<?php echo get_template_directory_uri(); ?>/favicon/favicon.ico type="image/x-icon">
+    <? php
+        wp_head();
+    ?>
 </head>
 
 <body>
@@ -27,7 +25,7 @@
         <div class="container">
             <div class="header__block">
                 <div class="header__logo">
-                    <img src="img/header/logo.png" alt="Логотип Языковой школы .Yes">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/header/logo.png" alt="Логотип Языковой школы .Yes">
                 </div>
                 <div class="header__contact">
                     <div class="header__adress">г. Москва ул. Северная, 35</div>
@@ -43,7 +41,7 @@
         <div class="container">
             <div class="main__promoblock">
                 <div class="main__promoblock-img">
-                    <img src="img/main/main-img.png" alt="Декоративная фотография Биг Бена">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/main/main-img.png" alt="Декоративная фотография Биг Бена">
                 </div>
                 <div class="main__promoblock-text wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="main__promoblock-title">
@@ -75,10 +73,10 @@
                         <p>Вы думали, что знаете английский, но в гостинице с трудом выговариваете, какой номер вам нужен</p>
                     </div>
                     <div class="situation__decor">
-                        <img src="img/situations/situation-decorate.png" alt="Синия волнистая декоративная линия">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/situations/situation-decorate.png" alt="Синия волнистая декоративная линия">
                     </div>
                     <div class="situation__photo">
-                        <img src="img/situations/photo-1.jpg" alt="Мужчина с чеоданами, не можещий сказать номер по английски">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/situations/photo-1.jpg" alt="Мужчина с чеоданами, не можещий сказать номер по английски">
                     </div>
                 </div>
                 <div class="situation__block wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
@@ -86,7 +84,7 @@
                         <span>.</span>
                     </div>
                     <div class="situation__photo">
-                        <img src="img/situations/photo-2.jpg" alt="Ладонь на правой руке с компосом">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/situations/photo-2.jpg" alt="Ладонь на правой руке с компосом">
                     </div>
                     <div class="situation__text">
                         <p>Вы смогли спросить, до какой станции метро нужно дойти, но не поняли, куда вас отправили</p>
@@ -100,13 +98,13 @@
                         <p>В аэропорту при любом подозрении на задрежку, вы ищите представителя, хоть как-то говоряшего по-русски</p>
                     </div>
                     <div class="situation__photo">
-                        <img src="img/situations/photo-3.jpg" alt="Мужчина в черной куртке с черным рюкзаком, в левой руке документы, он в аэропорте">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/situations/photo-3.jpg" alt="Мужчина в черной куртке с черным рюкзаком, в левой руке документы, он в аэропорте">
                     </div>
                 </div>
                 <div class="situation__block wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="situation__number">в итоге...</div>
                     <div class="situation__photo">
-                        <img src="img/situations/photo-4.jpg" alt="Черно-белое фото на котором изображена лежащая женщина, на переднем плане мы видим ее стопы, на заднем плане мы видим как женщина пьет">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/situations/photo-4.jpg" alt="Черно-белое фото на котором изображена лежащая женщина, на переднем плане мы видим ее стопы, на заднем плане мы видим как женщина пьет">
                     </div>
                     <div class="situation__text">
                         <p>Все это портит впечатление от отдыха и отбивает желание посещать новые страны</p>
@@ -158,7 +156,7 @@
             <div class="teachers__items">
                 <div class="teachers__item wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="teachers__photo">
-                        <img src="img/teachers/photo-1.jpg" alt="Позитивная, молодая и жизнирадостная жешщина, с ней изучение английского пройдет очень интересно.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/teachers/photo-1.jpg" alt="Позитивная, молодая и жизнирадостная жешщина, с ней изучение английского пройдет очень интересно.">
                     </div>
                     <div class="teachers__name">
                         <h3>Алла Ристовская</h3>
@@ -170,7 +168,7 @@
                 </div>
                 <div class="teachers__item wow bounceInDown" data-wow-duration="2s" data-wow-delay="1.5s">
                     <div class="teachers__photo">
-                        <img src="img/teachers/photo-2.jpg" alt="Молодая, веселая, но в тоже время серьезная девушка, учмться с ней круто.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/teachers/photo-2.jpg" alt="Молодая, веселая, но в тоже время серьезная девушка, учмться с ней круто.">
                     </div>
                     <div class="teachers__name">
                         <h3>Анастасия Левчук</h3>
@@ -181,7 +179,7 @@
                 </div>
                 <div class="teachers__item wow bounceInDown" data-wow-duration="2s" data-wow-delay="2s">
                     <div class="teachers__photo">
-                        <img src="img/teachers/photo-3.jpg" alt="Очень крутой и веселый мужчина, с ним ваш английский пройдет весело, продуктивно и не заметно.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/teachers/photo-3.jpg" alt="Очень крутой и веселый мужчина, с ним ваш английский пройдет весело, продуктивно и не заметно.">
                     </div>
                     <div class="teachers__name">
                         <h3>Евгений Пак</h3>
@@ -295,12 +293,12 @@
                         </div>
                     </div>
                     <div class="training__block-photo">
-                        <img src="img/training/photo-1.png" alt="Мужчина азиатского происхождения, пытается, что-то объяснить.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/training/photo-1.png" alt="Мужчина азиатского происхождения, пытается, что-то объяснить.">
                     </div>
                 </div>
                 <div class="training__block wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="training__block-photo">
-                        <img src="img/training/photo-2.jpg" alt="Несколько людей изучают английсикий играя и весело, на переднем плане веселая и смеющаяся женщина.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/training/photo-2.jpg" alt="Несколько людей изучают английсикий играя и весело, на переднем плане веселая и смеющаяся женщина.">
                     </div>
                     <div class="training__block-text">
                         <div class="training__block-title">
@@ -321,15 +319,15 @@
                         </div>
                     </div>
                     <div class="training__block-photo">
-                        <img src="img/training/photo-3.jpg" alt="Сидит серьезная женщина в костюме и слушает женщину напротив нее, а также напротив нее сидит другая более веселая женщина, она также слушает, женщину рядом с собой.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/training/photo-3.jpg" alt="Сидит серьезная женщина в костюме и слушает женщину напротив нее, а также напротив нее сидит другая более веселая женщина, она также слушает, женщину рядом с собой.">
                     </div>
                 </div>
                 <div class="training__block wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="training__block-photo">
-                        <img src="img/training/photo-4.jpg" alt="Сидит женщина в бежевом джемпере, что-то записывает, рядом с ней сидит другая женщина в рубашке и желетке и помогает женщине в джемпере.">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/training/photo-4.jpg" alt="Сидит женщина в бежевом джемпере, что-то записывает, рядом с ней сидит другая женщина в рубашке и желетке и помогает женщине в джемпере.">
                     </div>
                     <div class="training__block-decorate_blue-circle">
-                        <img src="img/training/training-decorate-2.svg" alt="Ярко-синий декоративный круг">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/training/training-decorate-2.svg" alt="Ярко-синий декоративный круг">
                     </div>
                     <div class="training__block-text">
                         <div class="training__block-title">
@@ -351,7 +349,7 @@
             <div class="feedback__slider">
                 <div class="feedback__block">
                     <div class="feedback__photo">
-                        <img src="img/feedback/photo-1.jpg" alt="Красивая женщина разговаривающая по телефону">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/feedback/photo-1.jpg" alt="Красивая женщина разговаривающая по телефону">
                     </div>
                     <div class="feedback__text">
                         <div class="feedback__text-name">
@@ -368,7 +366,7 @@
                 </div>
                 <div class="feedback__block">
                     <div class="feedback__photo">
-                        <img src="img/feedback/photo-2.jpg" alt="Мужчина в очках на фоне лемных гор">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/feedback/photo-2.jpg" alt="Мужчина в очках на фоне лемных гор">
                     </div>
                     <div class="feedback__text">
                         <div class="feedback__text-name">
@@ -385,7 +383,7 @@
                 </div>
                 <div class="feedback__block">
                     <div class="feedback__photo">
-                        <img src="img/feedback/photo-3.jpg" alt="Лыйсый мужчина">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/feedback/photo-3.jpg" alt="Лыйсый мужчина">
                     </div>
                     <div class="feedback__text">
                         <div class="feedback__text-name">
@@ -428,7 +426,7 @@
             <div class="footer__content">
                 <div class="footer__logo">
                     <div class="footer__logo-img">
-                        <img src="img/footer/logo.png" alt="Логотип Языковой школы .Yes">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/footer/logo.png" alt="Логотип Языковой школы .Yes">
                     </div>
                     <div class="footer__logo-text">
                         <p>Школа Английского Языка</p>
@@ -438,22 +436,22 @@
                     <div class="footer__contact-icons">
                         <div class="footer__contact-icon">
                             <a href="https://vk.com/">
-                                <img src="img/footer/vk.svg" alt="Ссылка на наш Вконтакте">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/footer/vk.svg" alt="Ссылка на наш Вконтакте">
                             </a>
                         </div>
                         <div class="footer__contact-icon">
                             <a href="https://www.instagram.com/">
-                                <img src="img/footer/insta.svg" alt="Ссылка на наш Инстаграм">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/footer/insta.svg" alt="Ссылка на наш Инстаграм">
                             </a>
                         </div>
                         <div class="footer__contact-icon">
                             <a href="https://www.youtube.com/?gl=RU">
-                                <img src="img/footer/yt.svg" alt="Ссылка на наш Ютуб">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/footer/yt.svg" alt="Ссылка на наш Ютуб">
                             </a>
                         </div>
                         <div class="footer__contact-icon">
                             <a href="https://ok.ru/">
-                                <img src="img/footer/ok.svg" alt="Ссылка на наши Однокласники">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/footer/ok.svg" alt="Ссылка на наши Однокласники">
                             </a>
                         </div>
                     </div>
@@ -480,7 +478,7 @@
                 <div class="popup__text">
                     <p>Оставьте свой номер телефона и наш оператор свяжется с вами для согласования даты занятия</p>
                 </div>
-                <form class="popup__form" method="POST" action="mail-trial.php" onsubmit="yaCounter49661569.reachGoal('orderTrial', function () {alert('Данные успешно отправлены');}); return true;">
+                <form class="popup__form" method="POST" action="<?php echo get_template_directory_uri(); ?>/mail-trial.php" onsubmit="yaCounter49661569.reachGoal('orderTrial', function () {alert('Данные успешно отправлены');}); return true;">
                     <input class="popup__form-phone" required type="tel" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="phone">
                     <button class="btn popup__form-btn" type="submit" name="submit">Записаться на пробное занятие</button>
                 </form>
@@ -499,7 +497,7 @@
                 <div class="popup__text">
                     <p>Оставьте свой номер телефона и наш оператор свяжется с вами</p>
                 </div>
-                <form class="popup__form" method="POST" action="mail-call.php" onsubmit="yaCounter49661569.reachGoal('orderCall', function () { alert('Данные успешно отправлены');
+                <form class="popup__form" method="POST" action="<?php echo get_template_directory_uri(); ?>/mail-call.php" onsubmit="yaCounter49661569.reachGoal('orderCall', function () { alert('Данные успешно отправлены');
                     }); return true;">
                     <input class="popup__form-phone" required type="tel"  placeholder="+7 ( _ _ _ ) _ _ _ - _ _ _ - _ _ _ _ " name="user_phone">
                     <button class="btn popup__form-btn" type="submit" name="submit">Заказать бесплатную консультацию</button>
@@ -538,10 +536,9 @@
             }
         })(document, window, "yandex_metrika_callbacks2");
     </script><noscript> <div></div><img src="https://mc.yandex.ru/watch/49661569" style="position:absolute; left:-9999px;" alt=""></noscript>
-    <script src="libs/WOW/wow.min.js"></script>
-    <script src="libs/jquery/jquery.min.js"></script>
-    <script src="libs/slick/slick.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <? php
+        wp_footer();
+    ?>
     <script>
         (new WOW).init()
     </script>
