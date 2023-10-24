@@ -1,2 +1,3 @@
-# .Yes
-Lang school
+# .Yes (Lang school site on wordpress)
+Educational project
+
